@@ -185,7 +185,7 @@ jobs:
       - uses: r-lib/actions/setup-r@master
         with:
           rtools-version: 40
-          r-version: "4.0"
+          r-version: "4.1"
           Ncpus: 2
       - name: Build Arrow C++ with rtools40
         shell: bash
@@ -241,7 +241,7 @@ jobs:
         r_version:
           # - "3.5"
           - "3.6"
-          - "4.0"
+          - "4.1"
     steps:
       - name: Checkout arrow-r-nightly
         uses: actions/checkout@v2
